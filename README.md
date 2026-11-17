@@ -83,7 +83,7 @@ Para validar o projeto em qualquer máquina Linux/Raspberry Pi independentemente
 ### Passo 1: Clonar o repositório e instalar dependências
 ```bash
 sudo apt update && sudo apt install -y python3-gpiozero python3-lgpio
-git clone <URL_DO_SEU_REPOSITORIO> ~/projeto-embarcados
+git clone <https://github.com/art-ga/SEL0337---PRATICA5.git> ~/projeto-embarcados
 cd ~/projeto-embarcados
 chmod +x monitor_led.py parada_led.py
 ```
